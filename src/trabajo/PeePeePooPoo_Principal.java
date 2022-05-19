@@ -114,13 +114,13 @@ public class PeePeePooPoo_Principal {
 	   public static void multiplicar(float op1, float op2) {
 		   float resul=0f;
 			resul= op1*op2;
-			System.out.println("La multiplicación de " + op1 + " por " + op2 + " es " + resul);
+			System.out.println("La multiplicación de " + op1 + " por " + op2 + " es: " + resul);
 	    }
 	  
 	   public static void dividir(float op1, float op2) {
 		   float resul=0f;
 			resul= op1/op2;
-			System.out.println("La división de " + op1 + " entre " + op2 + " es " + resul);
+			System.out.println("La división de " + op1 + " entre " + op2 + " es: " + resul);
 	   }
 	
 }
