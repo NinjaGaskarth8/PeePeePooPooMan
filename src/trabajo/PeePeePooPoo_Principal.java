@@ -87,7 +87,28 @@ public class PeePeePooPoo_Principal {
 		} while (opcion != 5);
 
 		System.out.println("Gracias por ayudar al PeePeePooPoo Man, jamás lo olvidará");
-
-		// FALTA CREAR LOS MÉTODOS CORRESPONDIENTES PARA PODER HACER LAS OPERACIONES :)
+		
 	}
+	//MÉTODOS CORRESPONDIENTES PARA REALIZAR LAS OPERACIONES :)
+	
+	public static void sumar(float op1, float op2) {
+		
+		System.out.println("La suma de " + op1 + " y " + op2 + " es: " + (op1+op2));
+		
+	}
+	
+	public static void restar(float op1, float op2) {
+		
+		if(op1>op2) {
+			
+			System.out.println("La resta de " + op1 + " y " + op2 + " es: " + (op1-op2));
+			
+		}else {
+			
+			System.out.println("La resta de " + op2 + " y " + op1 + " es: " + (op2-op1));
+			
+		}
+
+	}
+	
 }
